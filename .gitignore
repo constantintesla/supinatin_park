@@ -1,1 +1,61 @@
-/venv
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+.env/
+
+# Notebooks and logs
+*.ipynb_checkpoints/
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / cache
+.cache/
+.dist/
+.build/
+*.tmp
+
+# Data & artifacts
+*.csv
+*.json
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.pt
+*.onnx
+*.engine
+*.ckpt
+
+# Media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Results and plots
+*.png
+*.pdf
+*.svg
+analysis_*.*
+*wrist_analysis_results.*
+
+# Model weights
+yolov8*.pt
+yolov11*.pt
+
+# IDE
+.vscode/
+.idea/
